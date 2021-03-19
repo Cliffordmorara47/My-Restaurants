@@ -45,15 +45,15 @@ public class MainActivityInstrumentationTest {
         });
     }
 
-    @Test
-    public void listItemClickDisplaysToastWithCorrectRestaurant() {
-        String restaurantName = "Mi Mero Mole";
-        onData(anything())
-                .inAdapterView(withId(R.id.listView))
-                .atPosition(0)
-                .perform(click());
-        onView(withText(restaurantName)).inRoot(withDecorView(not(activityDecorView)))
-                .check(matches(withText(restaurantName)));
-    }
+//    @Test
+//    public void listItemClickDisplaysToastWithCorrectRestaurant() {
+//        String restaurantName = "Mi Mero Mole";
+//        onData(anything())
+//                .inAdapterView(withId(R.id.listView))
+//                .atPosition(0)
+//                .perform(click());
+//        onView(withText(restaurantName)).inRoot(withDecorView(not(activityDecorView)))
+//                .check(matches(withText(restaurantName)));
+//    }
 
 }
