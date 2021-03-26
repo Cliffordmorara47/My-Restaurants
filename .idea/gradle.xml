@@ -7,7 +7,7 @@
         <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/current" />
+        <option name="gradleHome" value="$USER_HOME$/Downloads/gradle/gradle-6.8.3" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
