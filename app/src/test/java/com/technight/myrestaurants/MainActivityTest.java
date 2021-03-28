@@ -4,13 +4,15 @@ import android.content.Intent;
 import android.os.Build;
 import android.widget.TextView;
 
+import com.technight.myrestaurants.ui.MainActivity;
+import com.technight.myrestaurants.ui.RestaurantsActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-import org.robolectric.annotation.LooperMode;
 import org.robolectric.shadows.ShadowActivity;
 
 import static org.junit.Assert.assertTrue;
