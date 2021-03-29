@@ -7,7 +7,7 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.filters.LargeTest;
 import androidx.test.runner.AndroidJUnit4;
 
-import com.technight.myrestaurants.ui.RestaurantsActivity;
+import com.technight.myrestaurants.ui.RestaurantListActivity;
 
 import org.junit.Before;
 import org.junit.Rule;
@@ -24,16 +24,16 @@ import static org.hamcrest.Matchers.not;
 public class MainActivityInstrumentationTest {
 
     @Rule
-    public ActivityScenarioRule<RestaurantsActivity> activityTestRule =
-            new ActivityScenarioRule<>(RestaurantsActivity.class);
+    public ActivityScenarioRule<RestaurantListActivity> activityTestRule =
+            new ActivityScenarioRule<>(RestaurantListActivity.class);
 
     private View activityDecorView;
 
     @Before
     public void setUp() {
-        activityTestRule.getScenario().onActivity(new ActivityScenario.ActivityAction<RestaurantsActivity>() {
+        activityTestRule.getScenario().onActivity(new ActivityScenario.ActivityAction<RestaurantListActivity>() {
             @Override
-            public void perform(RestaurantsActivity activity) {
+            public void perform(RestaurantListActivity activity) {
                 activityDecorView = activity.getWindow().getDecorView();
             }
         });

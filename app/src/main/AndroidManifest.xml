@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyRestaurants">
-        <activity android:name=".ui.RestaurantListActivity"></activity>
-        <activity android:name=".ui.RestaurantsActivity">
+        <activity android:name=".ui.RestaurantDetailActivity"></activity>
+        <activity android:name=".ui.RestaurantListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.technight.myrestaurants.ui.MainActivity"></meta-data>
+                android:value="com.technight.myrestaurants.ui.MainActivity" />
         </activity>
         <activity
             android:name=".ui.MainActivity"

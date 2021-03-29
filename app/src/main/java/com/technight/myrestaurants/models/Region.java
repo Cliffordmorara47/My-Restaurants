@@ -5,6 +5,9 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 import com.technight.myrestaurants.models.Center;
 
+import org.parceler.Parcel;
+
+@Parcel
 public class Region {
 
     @SerializedName("center")

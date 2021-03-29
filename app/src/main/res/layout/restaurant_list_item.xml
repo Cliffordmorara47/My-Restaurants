@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="One Cuisine Type"
             android:id="@+id/categoryTextView"
-            android:textStyle="italic"/>
+            android:textStyle="normal"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
