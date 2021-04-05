@@ -31,7 +31,7 @@ import retrofit2.Response;
 
 public class RestaurantListActivity extends AppCompatActivity {
     public static final String TAG = RestaurantListActivity.class.getSimpleName();
-//    @BindView(R.id.locationTextView) TextView mLocationTextView;
+    @BindView(R.id.locationTextView) TextView mLocationTextView;
 //    @BindView(R.id.listView) ListView mListView;
     private SharedPreferences mSharedPreferences;
     private String mRecentAddress;
@@ -62,7 +62,8 @@ public class RestaurantListActivity extends AppCompatActivity {
         mRecentAddress = mSharedPreferences.getString(Constants.PREFERENCES_LOCATION_KEY, null);
 
         Intent intent = getIntent();
-        String location = mRecentAddress;
+        String location = intent.getStringExtra("location");
+//        String location = mRecentAddress;
 //        String location = intent.getStringExtra("location");
 //        mLocationTextView.setText("Here are all the restaurants near: " + location);
 
