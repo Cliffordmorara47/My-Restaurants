@@ -88,5 +88,11 @@ android {
         implementation 'com.google.firebase:firebase-auth'
         implementation 'com.google.firebase:firebase-firestore'
         implementation 'com.google.firebase:firebase-database'
+        implementation 'com.firebaseui:firebase-ui-database:7.1.1'
     }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 }
