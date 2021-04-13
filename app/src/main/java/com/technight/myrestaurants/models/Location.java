@@ -118,10 +118,10 @@ public class Location {
         this.zipCode = zipCode;
     }
 
-    @NonNull
-    @Override
-    public String toString(){
-        return String.format("%s, %s, %s, %s", this.address1, this.city, this.state, this.zipCode);
-    }
+//    @NonNull
+//    @Override
+//    public String toString(){
+//        return String.format("%s, %s, %s, %s", this.address1, this.city, this.state, this.zipCode);
+//    }
 }
 
